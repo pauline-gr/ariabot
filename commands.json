@@ -1,0 +1,126 @@
+{
+    "help": {
+        "description": "Affiche la liste des commandes disponibles."
+    },
+    "caracInfos": {
+        "description": "Affiche les informations sur toutes les caractéristiques",
+        "infos": {
+            "Force": "La Force est une mesure de la puissance musculaire du personnage. Cette caractéristique donne une idée de ce qu’il peut soulever, porter, pousser ou tirer.",
+            "Dextérité": "La Dextérité mesure la vivacité, l’agilité et la rapidité physique du personnage.",
+            "Endurance": "L’Endurance rend compte de la vitalité et de la santé du personnage.",
+            "Intelligence": "L’Intelligence décrit les capacités d’apprentissage, de mémorisation et d’analyse de votre personnage. Elle ne remplace pas l’intelligence du joueur, mais gère, à sa place, un certain nombre de tâches fastidieuses.",
+            "Charisme": "Le Charisme donne un ordre d’idée de l’apparence générale de votre personnage et de l’impression qu’il fait sur les gens au premier contact"
+        }
+    },
+    "competencesInfos": {
+        "description": "Affiche les informations sur toutes les compétences",
+        "infos": {
+            "Artisanat, construire": {
+                "carac1": "Dextérité",
+                "carac2": "Intelligence",
+                "description": "Permet de fabriquer des objets manuellement, pour peu que l’on dispose du matériel et des outils nécessaires."
+            },
+            "Combat à distance": {
+                "carac1": "Dextérité",
+                "carac2": "Intelligence",
+                "description": "Permet d’utiliser des armes à projectiles (arcs, arbalètes…) ou de lancer (couteau, bolas…). La même compétence est utilisée pour toutes les armes à distance, mais le MJ peut imposer un malus de -10 % s’il estime l’arme employée trop exotique pour le personnage."
+            },
+            "Combat rapproché": {
+                "carac1": "Force",
+                "carac2": "Dextérité",
+                "description": "Permet d’utiliser les armes de corps à corps en combat, qu’elles soient à une ou deux mains. Est également utilisé pour parer si le personnage dispose d’une arme adéquate. Une seule et même compétence de Combat rapproché est utilisée pour toutes les armes de corps à corps, mais le MJ peut imposer un malus de -10 % s’il estime l’arme employée trop exotique pour le personnage."
+            },
+            "Connaissance de la nature": {
+                "carac1": "Dextérité",
+                "carac2": "Intelligence",
+                "description": "Mélange de chimie et de biologie, cette compétence permet de reconnaître les éléments en extérieur, tels que les plantes et poisons, ou d’en savoir plus sur les animaux."
+            },
+            "Connaissance des secrets": {
+                "carac1": "Intelligence",
+                "carac2": "Charisme",
+                "description": "Donne au personnage des indices sur des éléments incompréhensibles, du ressort de la culture générale (histoire, géographie, héraldique, etc.). Peut aussi être utilisé pour en savoir plus sur la magie et sur certaines légendes."
+            },
+            "Courir, sauter": {
+                "carac1": "Dextérité",
+                "carac2": "Endurance",
+                "description": "Même si son nom ne concerne que ses deux activités principales, cette compétence permet en réalité d’accomplir toutes les actions physiques, y compris la nage ou l’escalade."
+            },
+            "Discrétion": {
+                "carac1": "Dextérité",
+                "carac2": "Charisme",
+                "description": "Utilisée lorsque vous devez vous déguiser ou vous faire oublier dans l’endroit où vous vous trouvez/rendez. En disposant du matériel adéquat pour vous déguiser, vous pouvez même prendre l’apparence de quelqu’un en particulier si vous réussissez votre jet avec un malus de -20 %. Dans le cadre d’une filature ou d’une poursuite, votre Discrétion s’opposera à la Perception de votre adversaire."
+            },
+            "Droit": {
+                "carac1": "Intelligence",
+                "carac2": "Charisme",
+                "description": "Vous donne accès aux usages administratifs et judiciaires des royaumes que vous traversez. Vous savez ainsi ce qui est illégal ou non et la peine encourue pour les différents crimes et délits."
+            },
+            "Esquiver": {
+                "carac1": "Dextérité",
+                "carac2": "Intelligence",
+                "description": "Cette compétence permet d’éviter les différents coups qui vous sont portés, avec un malus de -20 % lorsqu’il s’agit d’attaques à distance. Vous ne pouvez pas attaquer le même tour où vous esquivez."
+            },
+            "Intimider": {
+                "carac1": "Force",
+                "carac2": "Charisme",
+                "description": "Parfois, la parole ne suffit pas et il vous faudra manier la menace, les sous-entendus et la grosse voix pour forcer votre auditoire à être d’accord avec vous. Intimider entre en jeu à ce moment-là."
+            },
+            "Lire, écrire": {
+                "carac1": "Intelligence",
+                "carac2": "Charisme",
+                "description": "Sans cette compétence, un héros ne peut absolument rien lire, pas même un panneau indicateur. Lire un livre nécessite une demi-journée par partie distincte."
+            },
+            "Mentir, convaincre": {
+                "carac1": "Intelligence",
+                "carac2": "Charisme",
+                "description": "Plus subtil qu’Intimider, cette compétence vous permet de rallier votre auditoire à votre avis. Elle est utilisée dans toutes les négociations: commerciales, politiques, entourloupes, etc. Votre interlocuteur ou interlocutrice a droit un jet sous Psychologie pour ne pas se laisser faire."
+            },
+            "Perception": {
+                "carac1": "Intelligence",
+                "carac2": "Charisme",
+                "description": "Représente la capacité du personnage à capter et analyser rapidement les différentes informations de son environnement."
+            },
+            "Piloter": {
+                "carac1": "Dextérité",
+                "carac2": "Endurance",
+                "description": "Qu’il s’agisse de monter un cheval, de conduire les étranges machines de Kniga voire de mener un navire, cette compétence vous permet de diriger et/ou manœuvrer tout moyen de locomotion (animal, végétal, mécanique, autre…). La présence de plusieurs personnes sur les grands navires est toujours nécessaire."
+            },
+            "Psychologie": {
+                "carac1": "Endurance",
+                "carac2": "Intelligence",
+                "description": "Cette compétence vous permet d’avoir un aperçu des attentes des autres individus et de rester droit dans vos bottes quand on tente de vous manipuler. Elle est utilisée pour résister à Mentir, convaincre et Intimider."
+            },
+            "Réflexes": {
+                "carac1": "Dextérité",
+                "carac2": "Intelligence",
+                "description": "Parfois, vous devrez être vif pour échapper à un éboulement, empêcher une noble d’avaler un poison ou protéger un enfant d’un carreau d’arbalète. Réflexes intervient précisément à ce moment-là. Les combats utilisent aussi cette compétence pour déterminer qui agit en premier."
+            },
+            "Serrures et pièges": {
+                "carac1": "Dextérité",
+                "carac2": "Endurance",
+                "description": "Vous permet de crocheter ou verrouiller tout type de serrure non magique et de fabriquer ou désamorcer tout type de piège mécanique."
+            },
+            "Soigner": {
+                "carac1": "Intelligence",
+                "carac2": "Charisme",
+                "description": "Vous permet de soigner les blessés, pour peu que vous ayez le minimum d’outils nécessaires. Un jet réussi guérit 1d6 points de vie, mais un jet raté en fait perdre 1d3 de plus à la cible. Cette compétence est également utilisée pour diagnostiquer et soigner les maladies, parfois couplée avec Connaissance de la nature pour créer soi-même le remède."
+            },
+            "Survie": {
+                "carac1": "Endurance",
+                "carac2": "Intelligence",
+                "description": "Mélange de sens de l’orientation, de repérage aux étoiles et de débrouillardise, cette compétence vous permet de vous accommoder des lieux que vous ne connaissez pas. Elle est notamment employée pour déterminer si vous trouvez de quoi subvenir à vos besoins en milieu sauvage."
+            },
+            "Voler": {
+                "carac1": "Dextérité",
+                "carac2": "Intelligence",
+                "description": "Compétence préférée des roublards et autre tire-laine, Voler permet au personnage de soulager un propriétaire de ses menues possessions, qu’il s’agisse d’une bourse pleine de pièces, d’une bague ou autres objets. Le MJ peut imposer un malus si l’objet à dérober est particulièrement imposant. La victime du larcin a droit à un jet sous Perception pour prendre le voleur sur le fait."
+            }
+        }
+    },
+    "calculComp": {
+        "description": "Permet de calculer les compétences en transmettant la liste des caractéristiques dans l'ordre séparées par un espace.\n\n    *Exemple*: `calculComp [Force] [Dextérité] [Endurance] [Intelligence] [Charisme]`\n    Soit: `calculComp 12 11 8 6 13`"
+    },
+    "compByCaracInfos": {
+        "description": "Affiche la liste simplifiée des compétences et du calcul de caractéristiques lié."
+    }
+}

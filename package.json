@@ -1,0 +1,21 @@
+{
+  "name": "ariabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauline-gr/ariabot.git"
+  },
+  "author": "pauline-gr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pauline-gr/ariabot/issues"
+  },
+  "homepage": "https://github.com/pauline-gr/ariabot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "discord-api-types": "^0.37.5",
+    "discord.js": "^14.3.0"
+  }
+}
