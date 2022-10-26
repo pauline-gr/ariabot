@@ -124,6 +124,15 @@ client.on('messageCreate', msg => {
           }
           msg.reply(`**Infos calcul de caractéristiques** \n${strInfos}`);
           break;
+
+        case "Roll3d6x7":
+          let result = '';
+          for(i = 1; i <= 7; i ++) {
+            result += `\n**Total ${i}:** ${(rollDice(6) + rollDice(6) + rollDice(6))}`;
+          }
+      
+          msg.reply(`${result}`);
+        break;
       }
     } else {
       // Decommenter en debug, sinon risque de répondre en cas de tag du bot
@@ -168,4 +177,8 @@ client.on('messageCreate', msg => {
       case "Charisme": 
        return parseInt(cha);
     }
+  }
+
+  function rollDice(max) {
+    return 1 + Math.floor(Math.random() * max);
   }

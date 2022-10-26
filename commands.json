@@ -122,5 +122,8 @@
     },
     "compByCaracInfos": {
         "description": "Affiche la liste simplifiée des compétences et du calcul de caractéristiques lié."
+    },
+    "Roll3d6x7": {
+        "description": "Lance 3d6 7 fois"
     }
 }
