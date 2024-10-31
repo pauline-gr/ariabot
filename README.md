@@ -1,5 +1,7 @@
 # AriaBot
 
+![Ariabot](ariabot.png)
+
 ## Description
 
 Outil discord pour la création de personnages basé sur les règles du jeu [Aria](https://game-of-roles.com/).
